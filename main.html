@@ -1,16 +1,69 @@
 <!DOCTYPE html>
-
 <html>
-
-<head>
-	<link rel="stylesheet" href="styles.css">
-</head>
-
-<body>
-	<!-- the entire body must be written by student -->
-    <script type="text/javascript" src="./script.js">
-</script>
-
-</body>
-
+  <head>
+    <title>Hello, World!</title>
+    <link rel="stylesheet" href="styles.css" />
+    <style>
+      body{
+        background-color: rgb(204, 204, 204);
+      }
+      h1{
+        text-align: center;
+      }
+      .container{
+        border: 1px solid black;
+        background-color: white;
+        border-radius: 8px;
+      }
+      h2{
+        text-align: center;
+      }
+      .container2{
+        border: 1px solid black;
+        background-color: white;
+        border-radius: 8px;
+        padding: 10px;
+        margin: 10px;
+      }
+      .player_one{
+        background-color: rgb(255, 255, 255); 
+        padding: 5px; 
+        border-radius: 5px;
+        padding: 10px;
+        margin: 10px;
+      }
+      h3{
+        text-align: center;
+      }
+      .player_two{
+        background-color: rgb(255, 255, 255); 
+        padding: 5px; 
+        border-radius: 5px;
+        padding: 10px;
+        margin: 10px;
+      }
+    </style>
+  </head>
+  <body>
+    <h1>My Playlist</h1>
+    <div class="container">
+      <ul>
+        <li>Song 1</li>
+        <li>Song 2</li>
+        <li>Song 3</li>
+        <li>Song 4</li>
+        <li>Song 5</li>
+      </ul>
+    </div>
+    <h2>Now Playing...</h2>
+    <div class="container2">
+      <video class=".player_one" controls>
+        <source src="https://www.w3schools.com/tags/movie.mp4">
+      </video>
+      <h3>MP3 songs</h3>
+      <audio class=".player_two" controls>
+        <source src="https://www.pagalworld.com.se/files/download/id/64630">
+      </audio>
+    </div>
+  </body>
 </html>
